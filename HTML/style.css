@@ -1,4 +1,4 @@
-/* 
+/* /* 
     .logo img {width: 164px;
 }
 
@@ -95,7 +95,7 @@ section span img {
 } */
 
 
-.logo {}
+/* .logo {} */
 
 .logo img {
     width: 164px;
@@ -222,4 +222,4 @@ section span img {
     .grid{ 
         grid-template-columns: 1fr; 
     }
-}
+} 
