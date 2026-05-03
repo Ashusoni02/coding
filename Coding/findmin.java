@@ -16,3 +16,4 @@ public class findmin {
         return min;
     }
 }
+   
