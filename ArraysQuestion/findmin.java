@@ -1,4 +1,4 @@
-package Coding;
+package ArraysQuestion;
 
 public class findmin {
     public static void main(String[] args) {

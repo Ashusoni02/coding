@@ -1,11 +1,12 @@
-package Coding;
+package ArraysQuestion;
 
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 public class evendigit {
 
     public static void main(String[] args) {
         int nums[] = { 12, 345, 2, 6, 7896 };
-        System.out.println(findNumbers(nums));
+        // int ans =(findNumbers(nums))
+        System.out.print("the number is :  "+(findNumbers(nums)));
     }
 
     // number of numbers that has even numbers of digits.
