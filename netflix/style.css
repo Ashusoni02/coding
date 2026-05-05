@@ -2,23 +2,31 @@
     margin: 0;
     padding: 0;
 }
-.main{
+
+body {
+    background-color: black;
+}
+
+.main {
     background-image: url("assets/images/bg.jpg");
     background-position: center center;
+    background-size:  max(1200px, 100vw);
     background-repeat: no-repeat;
-    background-size: max(1000px, 100vw);
-    height: 80vh;
+    /* background-size: max(1000px, 100vw); */
+    height: 70vh;
     position: relative;
 }
-.main .box{
-height: 80vh;;
-width: 100%;
-opacity: 0.5;
-position: absolute;
-top:0;
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
     background-color: black;
-}   
-nav{
+}
+
+nav {
     max-width: 80vw;
     margin: auto;
     display: flex;
@@ -26,13 +34,78 @@ nav{
     align-items: center;
     padding: 17px;
 }
-nav img{
+
+nav img {
     width: 120px;
     position: relative;
     z-index: 10;
 }
-nav button{
+
+nav button {
     /* width: 120px; */
     position: relative;
     z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 12px;
+    padding: 0 24px;
+}
+
+.hero> :nth-child(1) {
+    text-align: center;
+    font-weight: 900;
+    font-size: 37px;
+}
+
+.hero> :nth-child(2) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.hero> :nth-child(3) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.border{
+    height: 7px;
+     opacity: 0.6;
+    background-color: gray;
+}
+.btn{
+   padding:  4px 19px;
+   background-color: white;
+   font-weight: bold ;
+}
+
+.btn-red{
+       background-color: red;
+    color: white;
+    padding: 5px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+    
+}
+
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    
+}
+.main input{
+    padding: 5px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+        background-color: rgba(23, 23, 23, 0.2);
 }
