@@ -10,7 +10,7 @@ body {
 .main {
     background-image: url("assets/images/bg.jpg");
     background-position: center center;
-    background-size:  max(1200px, 100vw);
+    background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
     /* background-size: max(1000px, 100vw); */
     height: 70vh;
@@ -23,7 +23,7 @@ body {
     opacity: 0.7;
     position: absolute;
     top: 0;
-    background-color: black; 
+    background-color: black;
 }
 
 nav {
@@ -77,35 +77,47 @@ nav button {
     font-weight: 400;
     font-size: 20px;
 }
-.border{
+
+.border {
     height: 7px;
-     opacity: 0.6;
+    opacity: 0.6;
     background-color: gray;
 }
-.btn{
-   padding:  4px 19px;
-   background-color: white;
-   font-weight: bold ;
+
+.btn {
+    padding: 4px 19px;
+    background-color: white;
+    font-weight: bold;
 }
 
-.btn-red{
-       background-color: red;
+.btn-red {
+    background-color: red;
     color: white;
     padding: 5px 25px;
     font-size: 17px;
     border-radius: 6px;
-    
+
 }
 
-.btn-red-sn{
+.btn-red-sn {
     background-color: red;
     color: white;
     border-radius: 5px;
-    
+
 }
-.main input{
-    padding: 5px 25px;
-    font-size: 17px;
+
+.main input {
+    padding: 10px 91px 8px 10px;
+    font-size: 12px;
+        font-weight: 600;
     border-radius: 6px;
-        background-color: rgba(23, 23, 23, 0.2);
+    background-color: rgba(23, 23, 23, 0.7);
+        border-radius: 7px;
+        border: 1px solid  rgba(23, 23, 23, 0.7);
+}
+.hero-buttons{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
