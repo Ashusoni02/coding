@@ -85,39 +85,61 @@ nav button {
 }
 
 .btn {
+
     padding: 4px 19px;
-    background-color: white;
-    font-weight: bold;
-}
-
-.btn-red {
-    background-color: red;
     color: white;
-    padding: 5px 25px;
-    font-size: 17px;
-    border-radius: 6px;
-
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(23, 23, 23, 0.7);
 }
 
 .btn-red-sn {
     background-color: red;
     color: white;
     border-radius: 5px;
+    margin: 0px 1px 0px 8px;
 
 }
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    padding: 5px 25px;
+    font-size: 17px;
+    border-radius: 6px;
+
+}
+
 
 .main input {
     padding: 10px 91px 8px 10px;
     font-size: 12px;
-        font-weight: 600;
+    font-weight: 400;
+    color: white;
     border-radius: 6px;
     background-color: rgba(23, 23, 23, 0.7);
-        border-radius: 7px;
-        border: 1px solid  rgba(23, 23, 23, 0.7);
+    border-radius: 7px;
+    border: 1px solid rgba(23, 23, 23, 0.7);
 }
-.hero-buttons{
-        display: flex;
+
+.hero-buttons {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
+}
+.first{
+    display: flex;
+      max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+   
+}
+.secimg{
+    
 }
