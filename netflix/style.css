@@ -131,15 +131,103 @@ nav button {
     align-items: center;
     gap: 12px;
 }
-.first{
+
+.first {
     display: flex;
-      max-width: 70vw;
+    max-width: 70vw;
     margin: auto;
     color: white;
     align-items: center;
     justify-content: center;
-   
+    align-items: center;
+
 }
-.secimg{
-    
+
+.secimg {
+    position: relative;
+
+}
+
+.secimg img {
+    position: relative;
+    width: 32vw;
+    z-index: 7;
+
+}
+
+.secimg video {
+      position: absolute;
+    top: -29px;
+    right: 21px;
+    width: 500px;
+    height: 500px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+.second {
+    max-width: 70vw;
+    margin: auto;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faq {
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    font-size: 24px;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 11px;
+    cursor: pointer;
+      transition: all 1s ease-out;
+    max-width: 47vw;
+    margin: 8px auto;
+    justify-content: space-between;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
 }
