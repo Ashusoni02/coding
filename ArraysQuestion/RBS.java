@@ -1,5 +1,6 @@
 package ArraysQuestion;
 
+import java.util.Arrays;
 //  https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 public class RBS {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class RBS {
         // if we dont find the pivot.
         if (pivot == -1) {
             // just do normal binary search.
-            return Binarysearch(arr, target, 0, arr.length - 1);
+            return Binarysearch(arr, target, 0, arr.length -1);
         }
         // if pivot is found
         if (arr[pivot] == target) {
@@ -26,7 +27,7 @@ public class RBS {
     }
 
     static int Binarysearch(int[] arr, int target, int start, int end) {
-
+        
         while (start <= end) {
             int mid = start + (end - start) / 2;
             if (target > arr[mid]) {
@@ -51,10 +52,11 @@ public class RBS {
             if (mid < end && arr[mid] > arr[mid + 1]) {
                 return mid;
             }
-            if (mid > end && arr[mid] < arr[mid - 1]) {
+            if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
             }
-            if (arr[mid] <= start) {
+        
+            if (arr[mid] <= arr[start]) {
                 end = mid - 1;
             } else {
                 start = mid + 1;
