@@ -56,7 +56,7 @@ public class RBSIndublicates {
                 return mid - 1;
             }
         
-           if(arr[mid]==arr[start] &&arr[mid]==arr[start]){
+           if(arr[mid]==arr[start] &&arr[mid]==arr[end]){
             if (arr[start]>arr[start+1]) {
                 return start;
             }
