@@ -1,4 +1,4 @@
-package Coding;
+package ArraysQuestion;
 
 import java.util.Arrays;
 
