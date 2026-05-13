@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Question {
     public static void main(String[] args) {
-        int[] arr = { 2, 2, 4, 5 };
-        int target = 9;
+        int[] arr = { 3,2,4 };
+        int target = 6;
         System.out.println(Arrays.toString(find(arr, target)));
     }
 
@@ -16,7 +16,7 @@ public class Question {
         while (i < j) {
             int sum = arr[i] + arr[j];
             if (sum == target) {
-                return new int[] { arr[i], arr[j] };
+                return new int[] { i,j };
             }
             if (sum < target) {
                 i++;

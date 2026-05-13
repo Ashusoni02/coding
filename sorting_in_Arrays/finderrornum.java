@@ -1,5 +1,5 @@
 package sorting_in_Arrays;
-
+ // https://leetcode.com/problems/set-mismatch/submissions/2001981903/
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +13,7 @@ public class finderrornum {
     }
     static int[] solving(int[] nums) {
 
-   int i = 0;
+        int i = 0;
         while (i<nums.length) {
             
             int correct = nums[i] -1;
