@@ -150,7 +150,7 @@ nav button {
 
 .secimg img {
     position: relative;
-    width: 32vw;
+    width: 555px;
     z-index: 7;
 
 }
@@ -230,4 +230,24 @@ footer .questions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.first{
+    flex-wrap: wrap;
+}
+}
+.footer-item{
+    display: flex;
+    flex-direction: column ;
+    gap: 23px;
+}
+.footer a{
+    /* text-decoration: none; */
+    color: white
 }
