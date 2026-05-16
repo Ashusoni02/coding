@@ -1,4 +1,7 @@
 // leetcode.com/problems/squares-of-a-sorted-array/submissions/2003022415/
+package ArraysQuestion.two_Pointer;
+
+import java.util.Arrays;
 
 class Solution {
     public static int[] sortedSquares(int[] nums) {
