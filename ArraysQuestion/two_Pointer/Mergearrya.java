@@ -1,9 +1,21 @@
 // leetcode.com/problems/squares-of-a-sorted-array/submissions/2003022415/
 package ArraysQuestion.two_Pointer;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
 import java.util.Arrays;
 
+
 class Solution {
+    public static void main(String[] args) {
+          int[] nums = {-4,-1,0,3,10};
+      // int[] arr = {-4,-1,-1,0,1,2};
+int[] posg = sortedSquares(nums);
+System.out.println(Arrays.toString(posg));
+  
+  
+    }
     public static int[] sortedSquares(int[] nums) {
         
 List<Integer> pos = new ArrayList<>();
