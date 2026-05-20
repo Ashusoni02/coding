@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "indexofsum",
+            "request": "launch",
+            "mainClass": "ArraysQuestion.Sliding_Window.indexofsum",
+            "projectName": "sigma Ashu_dd1bac77"
+        },
+        {
+            "type": "java",
+            "name": "window",
+            "request": "launch",
+            "mainClass": "ArraysQuestion.Sliding_Window.window",
+            "projectName": "sigma Ashu_dd1bac77"
+        },
+        {
+            "type": "java",
             "name": "twopointer",
             "request": "launch",
             "mainClass": "ArraysQuestion.two_Pointer.twopointer",
