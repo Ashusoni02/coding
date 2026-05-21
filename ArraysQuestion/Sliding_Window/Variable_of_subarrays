@@ -1,0 +1,29 @@
+class Solution {
+    public int minSubArrayLen(int target, int[] arr) {
+
+        int low = 0;
+        int high = 0;
+        int sum = 0;
+
+        int INF = Integer.MAX_VALUE;
+
+        while (high < arr.length){ // compair for high not go out side the array.
+
+            sum = sum + arr[high];
+
+            while (sum >= target) { // comparision the sum is greater than or equal  to the target 
+
+                int len = high - low + 1;
+
+                INF = Math.min(INF, len);
+
+                sum = sum - arr[low];
+                low++;
+            }
+
+            high++;
+        }
+
+        return INF == Integer.MAX_VALUE ? 0 : INF;
+    }
+}
