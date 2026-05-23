@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ksubstring",
+            "request": "launch",
+            "mainClass": "ArraysQuestion.Sliding_Window.ksubstring",
+            "projectName": "sigma Ashu_dd1bac77"
+        },
+        {
+            "type": "java",
             "name": "indexofsum",
             "request": "launch",
             "mainClass": "ArraysQuestion.Sliding_Window.indexofsum",
