@@ -18,7 +18,7 @@ public class indexofsum {
         int sum =0; 
         for (int i = low; i <= high; i++) {
 
-            sum = sum + arr[i];
+            sum += arr[i];
         }
         while (high < arr.length) {
       
