@@ -14,12 +14,12 @@ public class closestsum {
     public static int threeSum(int[] arr, int target) {
         // List<List<Integer>> ans = new ArrayList<>();
         Arrays.sort(arr);
-        int mindiff = Integer.MAX_VALUE;
+        int mindiff = Integer.MAX_VALUE;   //
         int closetsum = 0;
         for (int i = 0; i < arr.length - 2; i++) {
-            if (0 < i && arr[i] == arr[i - 1]) {
-                continue;
-            }
+            // if (0 < i && arr[i] == arr[i - 1]) {
+            //     continue;
+            // }
             int left = i + 1;
             int right = arr.length - 1;
 
