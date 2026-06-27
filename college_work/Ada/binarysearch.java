@@ -1,4 +1,4 @@
-package ArraysQuestion.college_work.Ada;
+package college_work.Ada;
 
 public class binarysearch {
     public static void main(String[] args) {

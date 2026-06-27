@@ -1,4 +1,4 @@
-package ArraysQuestion.college_work.Ada;
+package college_work.Ada;
 
 public class RecursiveBS {
     public static void main(String[] args) {
