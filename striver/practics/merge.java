@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class merge {
     public static void main(String[] args) {
         int[] arr = { 4, 5, 7, 2, 87, 3 };
-mergesort(arr, 0, arr.length - 1);
-System.out.println(Arrays.toString(arr));
+        mergesort(arr, 0, arr.length - 1);
+        System.out.println(Arrays.toString(arr));
     }
 
     public static void mergesort(int[] arr, int low, int high) {
